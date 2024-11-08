@@ -4,9 +4,13 @@ description: An Announcement about what is happening at Helctic.
 ---
 import ImageComponent from "@components/ImageComponent.astro";
 import ThemedImage from '@components/ThemedImage.astro';
+import "/src/styles/_overrides.scss";
+import { Card, CardGrid } from '@astrojs/starlight/components';
+import ScriptWorkaround from "/src/components/ScriptWorkaround.astro";
 
-# We are recruiting Developers for Helctic, visit the Axyl Projects Career Page to learn more
-
+title: We are recruiting Developers for Helctic, visit the Axyl Projects Career Page to learn more
+description: Get started with Helctic.
+template: splash
 hero:
   tagline: |
     Dive into a new Work Experience.
