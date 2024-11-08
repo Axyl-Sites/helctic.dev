@@ -1,6 +1,7 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import react from "@astrojs/react";
+import mdxRenderer from "@astrojs/mdx/server.js";
 
 // https://astro.build/config
 export default defineConfig({
