@@ -30,7 +30,6 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 import ScriptWorkaround from "/src/components/ScriptWorkaround.astro";
 import TimelineComponent from "/src/components/TimelineComponent.astro";
 import StatusComponent from "/src/components/StatusComponent.astro";
-import DownloadCards from "/src/components/DownloadCards.jsx"
 
 <StatusComponent />
 <TimelineComponent />
@@ -39,14 +38,14 @@ Uncomment when to publish and show DownloadCards again
 <DownloadCards client:load/>
 */}
 <CardGrid stagger>
-  <Card title="Secure" icon="add-document">
-    being Built on Helctic, a Rust MicroKernel, made maintained, and loved by the Axyl Projects team.
-    Desgined from the ground up to limit access to the inner rings of you operating system
-    the Kernel SDK move Drivers into a unique Driver-Space, further limiting kernel access and securing your system.
+  <Card title="Secure" icon="lock">
+   Helctic is a Rust Microkernel, being build from the ground up to be simplistic, minimal, sectioned, and secure.
+   With no drivers in the kernel space, and only one process being able to interact with the kernel, security is a top priority.
+   we also employ a strong bug hunting program so we can ensure security in Helctic
   </Card>
   <Card title="User-oriented" icon="star">
     the Kernel SDK allows native use of Windows and Mac drivers
-    the rootCORP Games Anticheat allows games to be played natively on Helctic
+    the rootCORP Games Anticheat will allow games to be played natively on Helctic
     All This is work to **improving user experience**.
   </Card>
   <Card title="Performance" icon="rocket">
@@ -55,7 +54,7 @@ Uncomment when to publish and show DownloadCards again
     Configured to load the **bare minimum** for its purpose. **No useless services** or **modules** consuming your resources.
   </Card>
   <Card title="Flexibilty" icon="puzzle">
-    Being **flexible** as possible, leading to a unique user experience with the power to change **every aspect** of the distribution.
+    Being **flexible** as possible, leading to a unique user experience with the power to change **every aspect** of the kernel.
   </Card>
 </CardGrid>
 
