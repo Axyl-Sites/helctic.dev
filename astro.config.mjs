@@ -1,7 +1,6 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import react from "@astrojs/react";
-import mdxRenderer from "@astrojs/mdx/server.js";
 
 // https://astro.build/config
 export default defineConfig({
@@ -24,14 +23,14 @@ export default defineConfig({
         ? ["./src/styles/_global.css"]
         : ["./src/styles/landing.css", "./src/styles/_global.css"],
       social: {
-        github: "https://github.com/Axyl-Projects/Helctic",
+        github: "https://github.com/Helctic",
         twitter: "https://x.com/@axylprojects",
         discord: "https://discord.gg/J7R7sEZcn9",
         youtube: "https://youtube.com/@axylprojects",
         twitch: "https://twitch.tv/axylprojects",
       },
       editLink: {
-        baseUrl: "https://github.com/Axyl-Sites/axyl.org/tree/main/",
+        baseUrl: "https://github.com/Axyl-Sites/helctic.dev/tree/main/",
       },
 
       lastUpdated: true,
@@ -57,7 +56,7 @@ export default defineConfig({
             },
             {
               label: "Why Helctic?",
-              link: "/en/getting-started/Helctic",
+              link: "/en/getting-started/helctic",
             },
             {
               label: "Downloading Helctic",
